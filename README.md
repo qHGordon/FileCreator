@@ -32,17 +32,6 @@ pip install pyyaml
 
 ## 🚀 使用示例
 
-### 📂 目录树格式输入
-
-```plaintext
-project/
-├── src/
-│   ├── main.py
-│   └── utils.py
-└── docs/
-    └── README.md
-```
-
 ### 📄 JSON 格式输入
 
 ```json
@@ -82,13 +71,13 @@ python flexible-project-structure-generator.py
 
 ## 🎯 示例输入
 
-```plaintext
-project/
-├── src/    # 源代码目录
-│   ├── main.py  # 主程序
-│   └── utils.py  # 工具函数
-└── docs/    # 文档目录
-    └── README.md  # 说明文档
+```yaml
+project:
+  src:
+    main.py: ""
+    utils.py: ""
+  docs:
+    README.md: ""
 ```
 
 输入 **'done'** 结束。
@@ -104,19 +93,15 @@ D:\my_project
 程序将在指定路径创建相应的目录结构。
 
 ---
+## 目前暂时不支持目录树格式输入，后续更新。示例如下：
 
-## 📖 目录内容
-
-📌 本 README 包含了：
-
-1️⃣ **项目简介和主要功能**
-2️⃣ **安装说明**
-3️⃣ **详细的使用方法和示例**
-4️⃣ **支持的输入格式**
-5️⃣ **注意事项和错误处理**
-6️⃣ **贡献指南和许可证信息**
-
-📢 你可以根据需要调整或补充这个 README 的内容。
+```plaintext
+project/
+├── src/
+│   ├── main.py
+│   └── utils.py
+└── docs/
+    └── README.md
 
 ---
 
